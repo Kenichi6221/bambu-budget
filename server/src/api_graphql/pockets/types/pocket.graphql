@@ -1,0 +1,15 @@
+type Pocket{
+  id: ID
+  name: String!
+  state: String
+  startBalance: Float!
+  currentBalance: Float!
+}
+
+input PocketInput{
+  id: ID
+  name: String!
+  state: String
+  startBalance: Float!
+  currentBalance: Float
+}
