@@ -1,4 +1,0 @@
-type Query{
-  getAllPockets:[Pocket]
-  getPocketById(pocketId:ID!): Pocket
-}

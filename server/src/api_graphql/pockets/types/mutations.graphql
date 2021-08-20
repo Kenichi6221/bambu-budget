@@ -1,5 +1,0 @@
-type Mutation{
-  createPocket(pocket:PocketInput!):Pocket
-  updatePocket(pocket: PocketInput):Pocket
-  deletePocket(pocketId:ID!):Pocket
-}
